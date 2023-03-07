@@ -1,7 +1,6 @@
-//Ejemplos de nomenclatura de las variables de JavaScript
+//Ejemplos de nomenclatura de las variables de JavaScript.
 
 //String
-
 
 var bootcamp = 'Henry';
 
