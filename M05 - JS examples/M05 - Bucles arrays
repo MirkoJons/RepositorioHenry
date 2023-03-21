@@ -1,0 +1,37 @@
+// El parentesis del bucle for no sirve para recibir parametros, se utiliza por su sintaxis.
+// Siempre que trabajemos con un bucle for declararemos una variable de iteracion, que nos permitira tener un nodo para trabajar alrededor del bucle.
+
+// var arr = [1, 2, 3, 4, 5];
+
+// for(var i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// };
+
+// Estamos declarando como condicion que i sea menor a la longitud del array "arr".
+// Esto implica que mientras el numero sea menor a la cantidad de elementos del array, entonces el bucle sigue en funcionamiento.
+// el "i++" declara que cada iteracion agrega un numero a la variable.
+// El console.log(arr[i]) nos va a mostrar en el terminal como se va modificando la variable i con cada bucle.
+
+// function encontrarLetraP(string) {
+//     var letras = string.split('');
+// 
+//     for(let i = 0; i < letras.length; i++) {
+//         if(letras[i] === 'p') {
+//             console.log('Si contiene a P');
+//         }
+//     }
+// }
+// 
+// encontrarLetraP('JavaScript');
+// encontrarLetraP('Henry');
+
+
+// Aplicando un bucle while
+
+var arr = []
+
+while(arr.length < 5){
+    arr.push('BOOM')
+}
+
+console.log(arr)
